@@ -1,0 +1,60 @@
+-
+* {
+  font-family: 'CMUSerifRoman'; 
+   font-weight: normal; 
+   font-style: normal; 
+  text-align: center;}
+
+body {
+  padding: 0.5em;
+  width: 90%;
+  margin: 0 auto;
+  background-image:url("https://dsx.weather.com//util/image/w/moraine_1.jpg?v=ap&w=980&h=551&api=7db9fe61-7414-47b5-9871-e17d87b8b6a0");
+  background-size:contain;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+#content {
+  overflow: auto;
+  color: lightgray; }
+#nav, #feature, #footer {
+  margin: 3%;}
+.column1 {
+  width: 100%;
+  float: center;
+  margin: 1%;
+  height: 100;
+  margin-bottom: 1em;
+  background-color:lightgray;
+  padding: 0.5em;}
+main {
+  flex: auto;
+}
+
+h1 {
+  color:black;
+}
+
+#nav, #footer {
+  
+  
+  padding: 0.5em 12px;
+  margin: 0.5px;
+  padding: 10px 20px
+}
+  
+#nav li {
+  display:inline;
+  padding: 1em;
+}
+
+p, h1,a { 
+   font-family: 'CMUSerifRoman'; 
+   font-weight: normal; 
+   font-style: normal; ; 
+  font-size: 200%;
+}
